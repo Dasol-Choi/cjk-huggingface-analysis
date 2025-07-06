@@ -41,21 +41,22 @@ All data was collected via the Hugging Face Datasets API and analyzed using stru
 ---
 
 ## 📁 Repository Structure
-
+```
 cjk-huggingface-analysis/
 ├── scripts/
-│ ├── hugging_card_scraping.py # Crawls dataset cards (README)
-│ └── hugging_metadata_scraping.py # Crawls structured metadata fields
+│ ├── hugging_card_scraping.py 
+│ └── hugging_metadata_scraping.py 
 │
 ├── analysis/
-│ ├── analysis_datasetcard.ipynb # Analyzes documentation structure/length
-│ └── analysis_metadata.ipynb # Analyzes licensing, task types, size, ownership
+│ ├── analysis_datasetcard.ipynb 
+│ └── analysis_metadata.ipynb 
 │ 
 └── README.md 
+```
 
 ## 📝 Citation
 ```bibtex
 ```
 
-## 📬 Cantack
+## 📬 Contact
 - dasolchoi@yonsei.ac.kr
