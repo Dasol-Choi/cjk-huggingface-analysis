@@ -1,9 +1,9 @@
 # cjk-huggingface-analysis
-
+[![arXiv](https://img.shields.io/badge/arXiv-2311.02240-b31b1b.svg)](https://arxiv.org/abs/2507.04329)
 
 This repository contains the data collection and analysis code for the paper:
 
-📄 **No Language Data Left Behind: A Comparative Study of CJK Language Datasets in the Hugging Face Ecosystem**  
+📄 [**No Language Data Left Behind: A Comparative Study of CJK Language Datasets in the Hugging Face Ecosystem**](https://arxiv.org/abs/2507.04329)  
 
 ---
 
@@ -56,6 +56,15 @@ cjk-huggingface-analysis/
 
 ## 📝 Citation
 ```bibtex
+@misc{choi2025languagedataleftbehind,
+      title={No Language Data Left Behind: A Comparative Study of CJK Language Datasets in the Hugging Face Ecosystem}, 
+      author={Dasol Choi and Woomyoung Park and Youngsook Song},
+      year={2025},
+      eprint={2507.04329},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2507.04329}, 
+}
 ```
 
 ## 📬 Contact
