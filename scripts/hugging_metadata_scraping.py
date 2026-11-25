@@ -37,6 +37,8 @@ def extract_size_categories(soup):
         card_data = dataset_data.get('cardData', {})
 
         size_categories = card_data.get('size_categories', [])
+        if isinstance(size_categories, str):
+            size_categories = [size_categories]
         if size_categories:
             size_info['size_categories'] = '|'.join(size_categories)
 
@@ -164,7 +166,7 @@ def process_dataset_info(info):
         'citation': clean_text(info.get('citation', 'None')),
         'languages': ', '.join(info.get('languages', [])) or 'None',
         'language_category': language_category,  # 새로운 필드 추가
-        'size_categories': '|'.join(info.get('size_info', {}).get('size_categories', [])) or 'None',
+        'size_categories': info.get('size_info', {}).get('size_categories') or 'None',
         'paperswithcode_id': clean_text(info.get('paperswithcode_id', 'None')),
         'private': str(info.get('private', False)),
         'gated': str(info.get('gated', False)),
